@@ -1,0 +1,89 @@
+#holi{
+    height: 500px;
+    width: auto;
+}
+#next1{
+    height:50px;
+    width: 100px;
+    button-radius: 60px;
+}
+#holi{
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+#holiheading{
+    background-color: #eab676;
+}
+#holishort{
+    background-color: #e28743;
+}
+#eid{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#eidh{
+    background-color: #eab676;
+}
+#eidp{
+    background-color: #e28743;
+}
+#readm1{
+    float: left;
+    margin-left: 60px;
+}
+#readm2{
+    float: right;
+    margin-right: 60px;
+}
+#readm3{
+    float: left;
+    margin-left: 60px;
+}
+#Ganesh{
+    float: right;
+   height: 200px;
+   width: 200px;
+}
+#guru{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#gch{
+    background-color: #eab676;
+}
+#gcp{
+    background-color: #e28743;
+}
+#gph{
+    background-color: #eab676;
+}
+#gpp{
+    background-color: #e28743;
+}
+#guru{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#readm4{
+    float: right;
+    margin-right: 60px;
+}
+#next{
+    background-color: grey;
+    transition: 2s;
+    transition-delay: 1s;
+}
+#next:hover{
+    background-color: red;
+    transform: translateY(10px);
+}
+#holipara::first-letter{
+    font-size: 50px;
+}
+#eidpara::first-letter{
+    font-size: 50px;
+}

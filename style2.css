@@ -1,0 +1,135 @@
+#kjh{
+    background-color: #eab676;
+}
+#kjp{
+    background-color: #e28743;
+}
+#Krishna{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#readm5{
+    float: right;
+    margin-right: 60px;
+}
+#dph{
+    background-color: #eab676;
+}
+#dpp{
+    background-color: #e28743;
+}
+#durga{
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+#readm6{
+    float: left;
+    margin-left: 60px;
+}    
+#dsh{
+    background-color: #eab676;
+}
+#dsp{
+    background-color: #e28743;
+}
+#Dusshera {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#readm7{
+    float: right;
+    margin-right: 60px;
+}
+#diwalih{
+    background-color: #eab676;
+}
+#diwalip{
+    background-color: #e28743;
+}
+#diwali{
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+#readm8{
+    float: left;
+    margin-left: 60px;
+}    
+#lohh{
+    background-color: #eab676;
+}
+#lohp{
+    background-color: #e28743;
+}
+#lohri{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#readm9{
+    float: right;
+    margin-right: 60px;
+}
+#onam{
+    float: right;
+    height: 200px;
+    width: 200px;
+}    
+#onmh{
+    background-color: #eab676;
+}    
+#onmp{
+    background-color: #e28743;
+}
+#readm10{
+    float: left;
+    margin-left: 60px;
+}
+#holipage{
+    float: left;
+    height: 250px;
+    width: 250px;
+}
+#holipara::first-letter{
+    font-size: 80px;
+}
+.loader{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    animation: google 4s infinite alternate;
+}
+.dot:nth-child(1){
+    background-color: blue;
+}
+.dot:nth-child(2){
+    background-color: red;
+    animation-delay: 0.2s;
+}
+.dot:nth-child(3){
+    background-color: orange;
+    animation-delay: 0.4s;
+}
+.dot:nth-child(4){
+    background-color: green;
+    animation-delay: 0.6s;
+}
+@keyframes google{
+      from{
+          transform: translateY(-20px);
+      }
+    to{
+        transform: translateY(20px);
+    }
+}
